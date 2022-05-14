@@ -3,7 +3,7 @@ import os
 import shutil
 import stat
 import tempfile
-import yaml
+# import yaml
 import pyarrow.parquet as pq
 
 
