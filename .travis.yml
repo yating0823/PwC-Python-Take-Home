@@ -1,16 +1,12 @@
 language: python
 python:
-  - "3.8"
+  - "3.9"
 before_install:
   - python --version
   - pip install -U pip
   - pip install -U pytest
   - pip install codecov
 install:
-  - pip install os
-  - pip install shutil
-  - pip install stat
-  - pip install tempfile
   - pip install pyarrow
 script:
  - python TestWriteMethods.py
