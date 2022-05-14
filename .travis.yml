@@ -8,5 +8,6 @@ before_install:
   - pip install codecov
 install:
   - pip install pyarrow
+  - pip install pandas
 script:
  - python TestWriteMethods.py
